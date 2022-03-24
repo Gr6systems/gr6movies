@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+main{
+    margin-right: 10% ;
+    margin-left: 10% ;
+    margin-top: 2%;
+    margin-bottom: 10px;
+}
+
+header{
+    display: block;
+    /*border: 5px solid red;*/
+    padding: 10px 50px;/*Left Right */
+    text-align: center;
+}
+
+header img{
+    width:  100%;
+    height: auto;
+    border-radius: 5px;
+}
+.navegar{
+    margin: 10px;
+    text-align: center;
+}
+.navegador{
+    padding: 8px;
+    background-color: #000024;
+    width: 100%;
+    border-radius: 10px;
+
+}
+.colorRojo{
+    color: red;
+}
+nav a{
+    
+    padding: 7px 10px;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    background-color: #4a061e;
+    color: white;
+    border-radius: 5px;
+  }
+
+.conCarrusel{
+    border: 1px solid black;
+    height: 600px;  /* TAMAÑO VIDEO*/
+    position: relative;
+}
+
+.caja{
+
+    height: 100%;
+}
+.flecha{
+    height: 100%;
+    /* position: absolute; */
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#contenido{
+    
+    height: 600px; /* TAMAÑO VIDEO*/
+    overflow: hidden;
+}
+
+
+#episodios{
+     background-color:#000024;
+     color: white;
+     display: flex;
+     justify-content: space-around;
+     border-radius: 5px;
+}
+#episodios a{
+    padding: 5px;
+    color: white;
+}
+body i{
+    font-size: 30px;
+}
+
+footer{
+    width: 100%;
+    position: relative;
+    margin-top: 5%;
+    font-size: 20px;
+    padding: 10px;
+    clear: both;
+    background: #000024;
+    text-align: center;
+    color: white;
+}
+@media screen and (max-width:500px){
+    main{
+        margin-right: 10% ;
+        margin-left: 10% ;
+  
+    }
+    .conCarrusel{
+        height: 100px;
+
+    }
+    #contenido{
+        height: 100px;
+    }
+    nav a{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:700px){
+    main{
+        margin-right: 10% ;
+        margin-left: 10% ;
+  
+    }
+    .conCarrusel{
+
+        height: 200px;
+        
+
+    }
+    #contenido{
+        height: 200px;
+    }
+    nav a{
+    
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:900px){
+    main{
+        margin-right: 10% ;
+        margin-left: 10% ;
+  
+    }
+    .conCarrusel{
+
+        height: 300px;
+    }
+    #contenido{
+        height: 300px;
+    }
+    nav a{
+    
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:1200px){
+    main{
+        margin-right: 10% ;
+        margin-left: 10% ;
+  
+    }
+    .conCarrusel{
+
+        height: 400px;
+    }
+    #contenido{
+        height: 400px;
+    }
+    nav a{
+    
+        font-size: 15px;
+    }
+}
